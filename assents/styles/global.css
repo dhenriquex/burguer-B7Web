@@ -1,0 +1,20 @@
+@import url("./header.css");
+@import url("./banner.css");
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+    color: #FFF;
+}
+body{
+    font-size: 18px;
+    background-color: #141414;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+    padding: 20px 0;
+}

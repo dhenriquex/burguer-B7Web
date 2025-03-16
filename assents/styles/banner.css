@@ -1,0 +1,43 @@
+.banner .container{
+    display: flex;
+
+}
+.banner-info, .banner-img{
+    flex: 1;
+}
+
+.banner-info{
+   padding-bottom: 150px;
+   h1{
+    font-family: "calistoga", sans-serif;
+    font-size: 72px;
+    line-height: 74px;
+    margin-top: 50px;
+   }
+   p{
+    font-size: 20px;
+    margin:40px 0 ;
+    line-height: 26px;
+   }
+   button{
+    border: none;
+    padding:15px 30px ;
+    background-color: #fe6a0f;
+    border-radius: 5px;
+    color: #fff;
+    transition: all 0.3s;
+    font-weight: 500;
+   }
+}
+.banner-info button:hover{
+    background-color:transparent;
+    border-radius: 20px;
+    border: 1px solid #fFF;
+    color: #fFF;
+}
+.banner-img {
+    img{
+        width: auto;
+        height: 600px;
+    }
+}
